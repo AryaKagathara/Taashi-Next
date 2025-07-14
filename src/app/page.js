@@ -193,7 +193,7 @@ export default function HomePage() {
               <div className="industry-item package-industry d-flex flex-column flex-md-row py-4">
                 <div className="industry-content flex-grow-1 px-4 py-4">
                   <h3>Packaging Corrugated Box</h3>
-                  <p>Taashi's starch-based adhesives are essential for pasting and corrugation processes,
+                  <p>Taashi&apos;s starch-based adhesives are essential for pasting and corrugation processes,
                     ensuring strong bonding, high-speed machinability, and durability in carton
                     manufacturing. Our specialized gums support both manual and automatic packaging lines.
                   </p>
@@ -220,7 +220,7 @@ export default function HomePage() {
               <div className="industry-item gypsum-industry py-4">
                 <div className="industry-content px-4 py-4">
                   <h3>Gypsum Board</h3>
-                  <p>Taashi's gypsum board starch acts as a core binder and strengthening agent, crucial for
+                  <p>Taashi&apos;s gypsum board starch acts as a core binder and strengthening agent, crucial for
                     maintaining board integrity during production and end-use. It helps improve adhesion
                     between the gypsum core and paper liner.</p>
                 </div>
@@ -257,7 +257,7 @@ export default function HomePage() {
           <p className="fadeInUp">With a focus on quality, consistency, and customization, we serve clients across the country and abroad
                 who rely on us for reliable bonding agents, sizing chemicals, and specialty starches. Our in-house R&D
                 and modern manufacturing plant ensure that every batch meets stringent performance and purity standards.
-                Whether it's a corrugated box plant, a duplex paper mill, or a gypsum board facility, Taashi is the
+                Whether it&apos;s a corrugated box plant, a duplex paper mill, or a gypsum board facility, Taashi is the
                 trusted name behind the bond.</p>
         </section>
 
