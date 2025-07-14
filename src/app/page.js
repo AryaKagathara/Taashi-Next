@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'; // Import the useState hook
 import Header from './components/Header';
+import Image from 'next/image';
 import Link from 'next/link';
 import { gsap } from "gsap"; // Import core GSAP
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger"; // Import ScrollTrigger plugin
@@ -95,7 +96,7 @@ export default function HomePage() {
         <section className="hero-section text-center pt-5">
           <h1 className="fadeInUp" data-scroll data-scroll-speed=".2" >Innovating Starch for Industrial Performance</h1>
           {/* Add fadeInUp to image */}
-          <img src="/images/Hero.png" className="mt-4 fadeInUp" alt="Industrial buildings" data-scroll data-scroll-speed=".6" />
+          <Image src="/images/Hero.png" className="mt-4 fadeInUp" alt="Industrial buildings" data-scroll data-scroll-speed=".6" />
         </section>
 
         {/* Products Section */}
@@ -198,7 +199,7 @@ export default function HomePage() {
                   </p>
                 </div>
                 <div className="industry-image p-3 p-md-0">
-                  <img src="/images/Box.png" className="img-fluid" alt="Packaging Corrugated Box Example" />
+                  <Image src="/images/Box.png" className="img-fluid" alt="Packaging Corrugated Box Example" />
                 </div>
               </div>
             </div>
@@ -211,7 +212,7 @@ export default function HomePage() {
                     starch. These enhance fiber bonding, coating uniformity, and ink absorption.</p>
                 </div>
                 <div className="industry-image">
-                  <img src="/images/Paper.png" className="img-fluid mid" alt="Paper Industry Example" />
+                  <Image src="/images/Paper.png" className="img-fluid mid" alt="Paper Industry Example" />
                 </div>
               </div>
             </div>
@@ -224,7 +225,7 @@ export default function HomePage() {
                     between the gypsum core and paper liner.</p>
                 </div>
                 <div className="industry-image">
-                  <img src="/images/Board.png" className="img-fluid mid" alt="Gypsum Board Example" />
+                  <Image src="/images/Board.png" className="img-fluid mid" alt="Gypsum Board Example" />
                 </div>
               </div>
             </div>
@@ -237,7 +238,7 @@ export default function HomePage() {
                     thickening, and film-forming properties.</p>
                 </div>
                 <div className="industry-image p-3 p-md-0">
-                  <img src="/images/Tape.png" className="img-fluid" alt="Other Industries Example" />
+                  <Image src="/images/Tape.png" className="img-fluid" alt="Other Industries Example" />
                 </div>
               </div>
             </div>
@@ -277,7 +278,7 @@ export default function HomePage() {
              {/* Add fadeInUp to delivery options */}
              <div className="col-lg-4 col-md-6 col-12 fadeInUp">
               <div className="delivery-option">
-                <img src="/images/truck-icon.svg" alt="By Road Icon" className="img-fluid mb-3" />
+                <Image src="/images/truck-icon.svg" alt="By Road Icon" className="img-fluid mb-3" />
                 <h4>By Road</h4>
                 <p>We arrange transport via trucks, containerized vehicles, and trailers, with load capacities
                     ranging from 1 to 25 tons, suitable for full truckloads or part-load shipments.</p>
@@ -285,7 +286,7 @@ export default function HomePage() {
             </div>
              <div className="col-lg-4 col-md-6 col-12 fadeInUp">
               <div className="delivery-option">
-                <img src="/images/train-icon.svg" alt="By Rail Icon" className="img-fluid mb-3" />
+                <Image src="/images/train-icon.svg" alt="By Rail Icon" className="img-fluid mb-3" />
                 <h4>By Rail</h4>
                 <p>For bulk orders, we facilitate dispatch via railway containers and wagons, ensuring
                     cost-effective long-distance delivery.</p>
@@ -293,7 +294,7 @@ export default function HomePage() {
             </div>
              <div className="col-lg-4 col-md-6 col-12 fadeInUp">
               <div className="delivery-option">
-                <img src="/images/factory-icon.svg" alt="Pickup Option Icon" className="img-fluid mb-3" />
+                <Image src="/images/factory-icon.svg" alt="Pickup Option Icon" className="img-fluid mb-3" />
                 <h4>Pickup Option</h4>
                 <p className="mb-0">You can also arrange for self-pickup directly from our manufacturing facility:
                 </p>
