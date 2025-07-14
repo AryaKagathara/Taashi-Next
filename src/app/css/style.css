@@ -704,6 +704,7 @@ h1 {
 
 .hero-section {
     height: 100vh;
+    max-width: 100wh;
     background-color: #FFFFFF;
     overflow: hidden;
 }
