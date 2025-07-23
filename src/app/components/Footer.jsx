@@ -6,6 +6,7 @@ import Image from "next/image";
 import Logo from "@/../public/images/Logo.svg";
 import downArrow from '@/../public/images/dropdown-arrow.svg';
 import { useState, useEffect } from 'react';
+import Copyright from "./Copyright";
 
 // Ensure you have the correct path to your CSS file
 // import "../css/style.css";
@@ -35,7 +36,7 @@ const Footer = () => {
                     </div>
                     <div className="row mt-5 footer-bottom">
                         <div className="col-md-6 text-center text-md-start">
-                            <p className="copyright">© 2018 - 2025 Taashi Industries LLC</p>
+                            <Copyright startYear={2018} companyName="Taashi Industries LLP" />
                         </div>
                         <div className="col-md-6 text-center text-md-end">
                             <p className="credits">Design & Developed by <a href="https://comsci.tech" target="_blank">Comsci</a></p>

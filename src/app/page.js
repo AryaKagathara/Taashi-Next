@@ -111,14 +111,14 @@ export default function HomePage() {
              <div className="col-lg-4 col-md-6 col-12 fadeInUp" data-scroll data-scroll-speed=".1">
               <div className="product-item">
                 <h6>Paper Industry</h6>
-                <h3>Kraft</h3>
+                <h3>Kraft Paper</h3>
                 <ul><li>Oxidised Starch</li></ul>
               </div>
             </div>
              <div className="col-lg-4 col-md-6 col-12 fadeInUp" data-scroll data-scroll-speed=".1">
               <div className="product-item">
-                <h6>Packaging Corrugated Box</h6>
-                <h3>Duplex</h3>
+                <h6>Paper Industry</h6>
+                <h3>Duplex Paper</h3>
                 <ul><li>Oxidised Starch</li><li>Cationic Starch</li><li>Spray Starch</li></ul>
               </div>
             </div>
@@ -126,14 +126,14 @@ export default function HomePage() {
               <div className="product-item">
                 <h6>Gypsum Board</h6>
                 <h3>Gypsum Board Starch</h3>
-                <ul><li>T Pack 25</li><li>T Pack 50</li></ul>
+                <ul><li>T-GYP</li></ul>
               </div>
             </div>
              <div className="col-12 fadeInUp" data-scroll data-scroll-speed=".1">
               <div className="product-item">
                 <h6>Other</h6>
                 <h3>Other Products</h3>
-                <ul><li>White Dextrine</li><li>Yellow Dextrine</li><li>Thin Boiling Starch</li><li>Pregelatinized Starch</li></ul>
+                <ul><li>White Dextrine</li><li>Yellow Dextrine</li><li>Thin Boiling Starch</li><li>Pre-gelatinized Starch</li></ul>
               </div>
             </div>
           </div>
@@ -146,7 +146,7 @@ export default function HomePage() {
               <div className="industry-item package-industry d-flex flex-column flex-md-row py-4">
                 <div className="industry-content flex-grow-1 px-4 py-4" data-scroll data-scroll-speed=".05"> {/* Inner parallax */}
                   <h3>Packaging Corrugated Box</h3>
-                  <p>Taash&apos;s starch-based adhesives are essential for pasting and corrugation processes, ensuring strong bonding, high-speed machinability, and durability in carton manufacturing. Our specialized gums support both manual and automatic packaging lines.</p>
+                  <p>Taashi&apos;s starch-based adhesives are essential for pasting and corrugation processes, ensuring strong bonding, high-speed machinability, and durability in carton manufacturing. Our specialized gums support both manual and automatic packaging lines.</p>
                 </div>
                 <div className="industry-image p-3 p-md-0">
                   <Image
@@ -166,7 +166,7 @@ export default function HomePage() {
               <div className="industry-item paper-industry">
                 <div className="industry-content px-4 py-4" data-scroll data-scroll-speed=".05">
                   <h3>Paper Industry</h3>
-                  <p>Our modified starches improve paper strength, surface sizing, and printability, serving Kraft and duplex paper mills with tailored formulations like oxidized and cationic starch. These enhance fiber bonding, coating uniformity, and ink absorption.</p>
+                  <p>Our modified starches improve paper strength, surface sizing, and printability, serving Kraft and Duplex Paper Mills with tailored formulations like oxidized and cationic starch. These enhance fiber bonding, coating uniformity, and ink absorption.</p>
                 </div>
                 <div className="industry-image">
                   <Image
@@ -206,7 +206,7 @@ export default function HomePage() {
               <div className="industry-item other-industry d-flex flex-column flex-md-row py-4">
                 <div className="industry-content flex-grow-1 px-4 py-4" data-scroll data-scroll-speed=".05">
                   <h3>Other Industries</h3>
-                  <p>Our specialty starches like dextrines, thin boiling starch, and pregelatinized starch are used in textiles, adhesives, food processing, and foundries for their binding, thickening, and film-forming properties.</p>
+                  <p>Our specialty starches like dextrines, thin boiling starch, and pregelatinized starch are used in textiles, adhesives, and foundries for their binding, thickening, and film-forming properties.</p>
                 </div>
                 <div className="industry-image p-3 p-md-0">
                   <Image
@@ -283,7 +283,7 @@ export default function HomePage() {
                 />
                 <h4>Pickup Option</h4>
                 <p className="mb-0">You can also arrange for self-pickup directly from our manufacturing facility:</p>
-                <p className="address-text mt-1">Survey No. 426P1, Bagathala Khakhrāla Road,<br /> Near Na Morbi, Rajkot, Gujarat — 363641, India</p>
+                <p className="address-text mt-1">Survey No. 426P1, Bagathala Khakhrāla Road,<br /> At Bagathala, Morbi, Gujarat — 363641, India</p>
               </div>
             </div>
           </div>
