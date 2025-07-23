@@ -26,8 +26,8 @@ const Footer = () => {
                             <p className="footer-description">We accept orders and provide consultation through phone, email, or WhatsApp. Custom orders and product modifications can be discussed with our team. For detailed pricing, please request our product price list.</p>
                             <div className="contact-info">
                                 <Link href="mailto:info@taashi.biz" className="contact-link email-link">info@taashi.biz</Link>
-                                <Link href="tel:+918000085885" className="contact-link phone-link">+91 800 008 58 85</Link>
-                                <Link href="tel:+919825623356" className="contact-link phone-link">+91 982 562 33 56</Link>
+                                <Link href="tel:+918000085885" className="contact-link phone-link">+91 80000 85885</Link>
+                                <Link href="tel:+919825623356" className="contact-link phone-link">+91 98256 23356</Link>
                             </div>
                         </div>
                         <div className="col-lg-6">
